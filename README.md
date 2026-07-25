@@ -1,4 +1,4 @@
-# 🏹 Wumpus World
+# Wumpus World
 
 [![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-5-purple)](https://vitejs.dev/)
@@ -18,7 +18,7 @@ El juego incorpora **dos modos de IA** para demostrar conceptos de inteligencia 
 
 | Juego | Win |
 |:---:|:---:|
-| ![Juego](screenshots/game.png) | ![Win](screenshots/game-victory.png) |
+|![Game Screenshot](https://github.com/AshleyLlamasTEC/wumpus-world/blob/main/public/screenshots/game.png)| ![Victory Screenshot](https://github.com/AshleyLlamasTEC/wumpus-world/blob/main/public/screenshots/game-victory.png)|
 
 *Ejemplo de partida en modo inteligente: el jugador (azul) busca el oro (amarillo) mientras el Wumpus (rojo) lo persigue.*
 
@@ -47,33 +47,6 @@ El juego incorpora **dos modos de IA** para demostrar conceptos de inteligencia 
 
 ---
 
-## Estructura del proyecto
-src/
-├── components/
-│ ├── Cell.jsx # Celda individual del tablero
-│ ├── Grid.jsx # Tablero completo
-│ ├── Controls.jsx # Botones de selección y reinicio
-│ ├── StatusPanel.jsx # Panel de información (movimientos, estado)
-│ ├── Legend.jsx # Leyenda y estrategia actual
-│ └── icons/ # Iconos SVG personalizados
-│ ├── WumpusIcon.jsx
-│ ├── DoorIcon.jsx
-│ ├── PersonIcon.jsx
-│ └── GoldIcon.jsx
-├── hooks/
-│ ├── useGameLogic.js # Lógica principal del juego
-│ └── useWumpusAI.js # Algoritmos de IA (heurísticos)
-├── utils/
-│ ├── helpers.js # Funciones auxiliares puras
-│ └── constants.js # Constantes del juego
-├── styles/
-│ └── index.css # Estilos globales y Tailwind
-├── App.jsx # Componente raíz
-└── main.jsx # Punto de entrada
-
-
----
-
 ## Instalación y uso
 
 ### Prerrequisitos
@@ -86,6 +59,7 @@ src/
 **1. Clona el repositorio:**
 
 git clone https://github.com/AshleyLlamasTEC/wumpus-world.git
+
 cd wumpus-world
 
 **Instala las dependencias:**
@@ -102,6 +76,8 @@ Abre http://localhost:5173 en tu navegador.
 Build para producción
 bash
 npm run build
+
+---
 
 ## Cómo jugar
 **Selecciona un modo:**
@@ -133,11 +109,12 @@ Se usa como heurística para encontrar el camino más corto.
 **Modificar la IA**
 Edita src/hooks/useWumpusAI.js para ajustar la heurística o agregar nuevos comportamientos.
 
+---
+
 ## Contribuciones
 Las contribuciones son bienvenidas. Por favor, abre un issue o pull request con tus mejoras.
 
-## Licencia
-Este proyecto está bajo la Licencia MIT. Ver el archivo LICENSE para más detalles.
+---
 
 ## Agradecimientos
 Inspirado en el clásico juego de "Hunt the Wumpus" gracias a mi profe de IA Noé del ITM.
