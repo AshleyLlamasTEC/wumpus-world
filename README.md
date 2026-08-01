@@ -117,6 +117,6 @@ Las contribuciones son bienvenidas. Por favor, abre un issue o pull request con 
 ---
 
 ## Agradecimientos
-Inspirado en el clásico juego de "Hunt the Wumpus" gracias a mi profe de IA Noé del ITM.
+Inspirado en el clásico juego de "Hunt the Wumpus" gracias a mi profe de IA Noé del TecNM.
 
 *Construido con ❤️ para fines educativos de IA.*
